@@ -1,0 +1,12 @@
+D:\MVC_Ornek_Proje\NewsPaginationAndFiltering\DAL\bin\Debug\net8.0\DAL.deps.json
+D:\MVC_Ornek_Proje\NewsPaginationAndFiltering\DAL\bin\Debug\net8.0\DAL.dll
+D:\MVC_Ornek_Proje\NewsPaginationAndFiltering\DAL\bin\Debug\net8.0\DAL.pdb
+D:\MVC_Ornek_Proje\NewsPaginationAndFiltering\DAL\obj\Debug\net8.0\DAL.csproj.AssemblyReference.cache
+D:\MVC_Ornek_Proje\NewsPaginationAndFiltering\DAL\obj\Debug\net8.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\MVC_Ornek_Proje\NewsPaginationAndFiltering\DAL\obj\Debug\net8.0\DAL.AssemblyInfoInputs.cache
+D:\MVC_Ornek_Proje\NewsPaginationAndFiltering\DAL\obj\Debug\net8.0\DAL.AssemblyInfo.cs
+D:\MVC_Ornek_Proje\NewsPaginationAndFiltering\DAL\obj\Debug\net8.0\DAL.csproj.CoreCompileInputs.cache
+D:\MVC_Ornek_Proje\NewsPaginationAndFiltering\DAL\obj\Debug\net8.0\DAL.dll
+D:\MVC_Ornek_Proje\NewsPaginationAndFiltering\DAL\obj\Debug\net8.0\refint\DAL.dll
+D:\MVC_Ornek_Proje\NewsPaginationAndFiltering\DAL\obj\Debug\net8.0\DAL.pdb
+D:\MVC_Ornek_Proje\NewsPaginationAndFiltering\DAL\obj\Debug\net8.0\ref\DAL.dll

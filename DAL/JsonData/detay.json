@@ -1,0 +1,121 @@
+{
+  "errorCode": 0,
+  "errorMessage": null,
+  "data": {
+    "headerAd": {
+      "itemType": "AD",
+      "adUnit": "/7436646/Aksam_{PLATFORM}_ROS_(320x50)(320x100)",
+      "itemWidth": 320,
+      "itemHeight": 50
+    },
+    "newsDetail": {
+      "resource": "",
+      "bodyText": "<p>ABD Başkanı Donald Trump, Japonya'nın 105 adet F-35 savaş uçağı almayı kabul ettiğini duyurdu.</p>\r\n\r\n<blockquote>\r\n<p>Trump Pazartesi günü (bugün), Japonya Başbakanı Shinzo Abe ile ortak bir basın toplantısında yaptığı açıklamada, Wahington ve Tokyo'nun 105 adet F-35 savaş uçağının alımı konusunda anlaşmaya vardığını belirtti.</p>\r\n</blockquote>\r\n\r\n<p>Trump ayrıca, iki tarafın yakın bir zamanda anlaşma ile ilgili daha ayrıntılı bilgi paylaşacaklarını ifade etti. ABD Başkanı, iki ülke arasında ticari ilişkikilere her türlü engeli kaldırmak için, çeşitli görüşmelerde bulunulduğunu söyledi.</p>\r\n\r\n<p>Japonya'nın savunma yeteneklerini geliştirmesini desteklediklerini belirten Trump, ülkelerin askeri işbirliği konusunda havacılıktan daha önemli bir kalem olmadığını, bunun ilişkileri önemli ölçüde artırdığını ifade etti.</p>\r\n\r\n<p>Öte yandan 10 Nisan'da Japonya'ya ait bir F-35'in Büyük Okyanus'a çakılmasıyla, Tokyo'nun daha fazla F-35 alıp almayacağı gibi çeşitli soruları gündeme getirmişti.</p>\r\n\r\n<p>Donald Trump ve eşi Melania şu anda resmi temaslarda bulunmak üzere 4 günlük Japonya seyahatindeler.</p>\r\n\r\n<p>(Star.com.tr)</p>\r\n",
+      "hasPhotoGallery": false,
+      "hasVideo": false,
+      "publishDate": "27.05.2019 09:30:00",
+      "fullPath": "https://www.aksam.com.tr/dunya/abd-baskani--trump-japonyanin-105-adet-f35-savas-ucagi-almayi-kabul-ettigini-duyurdu/haber-975413",
+      "shortText": "ABD Başkanı Donald Trump, Japonya'nın 105 adet F-35 savaş uçağı almayı kabul ettiğini duyurdu.",
+      "category": {
+        "categoryId": "14",
+        "title": "DÜNYA",
+        "slug": "dunya",
+        "color": "#FF0000"
+      },
+      "itemId": "975413",
+      "title": "Son dakika...  Trump, Japonya'nın 105 adet F-35 savaş uçağı almayı kabul ettiğini duyurdu",
+      "video": "",
+      "imageUrl": "https://cdn.turkmedya.com.tr/aksam/imgsdisk/2019/05/27/270520190933193893628.jpg",
+      "itemType": "NEWS"
+    },
+    "footerAd": {
+      "itemType": "AD",
+      "adUnit": "/7436646/Aksam_{PLATFORM}_ROS_(300x250)(336x280)",
+      "itemWidth": 300,
+      "itemHeight": 250
+    },
+    "multimedia": {
+      "sectionType": "SWIPE",
+      "repeatType": "NO_REPEAT",
+      "itemCountInRow": 2,
+      "lazyLoadingEnabled": false,
+      "titleVisible": false,
+      "title": null,
+      "titleColor": null,
+      "titleBgColor": null,
+      "sectionBgColor": null
+    },
+    "itemList": [
+      {
+        "itemList": null,
+        "itemId": "54530",
+        "title": "THY yolcularını Çin'in 2 bin yıllık tarihi olan Xian şehrine taşımaya başlayacak",
+        "imageUrl": "http://cdn.turkmedya.com.tr/aksam/fotogaleri/orj/galeri/2019/05/27/t16_7_1137_270502019.jpg",
+        "itemType": "PHOTO_GALLERY",
+        "titleVisible": true
+      },
+      {
+        "itemList": null,
+        "itemId": "54529",
+        "title": "Dünyanın az bilinen gerçekleri",
+        "imageUrl": "http://cdn.turkmedya.com.tr/aksam/fotogaleri/orj/galeri/2019/05/27/t16_14_1107_270502019.jpg",
+        "itemType": "PHOTO_GALLERY",
+        "titleVisible": true
+      },
+      {
+        "shortText": "Balık neden bu kadar önemli?\r\n<br>\r\nBalık yemenin faydaları nelerdir?\r\n<br>\r\nHafızayı kuvvetlendiren, konsantrasyonu ve dikkati artıran, damar ve kalp sağlığına en büyük yatırımı yapan, yüzdeki kırışıklıklara iyi gelen balığı haftada kaç kez tüketmeliyiz?\r\n<br>\r\nDr. Ayça Kaya Sağlıklı Ramazanlar´da cevaplıyor...",
+        "bodyText": "",
+        "videoUrl": "http://img1.aksam.com.tr/fotogaleri/video/saglikliramazan15.mp4",
+        "itemId": "44913",
+        "title": "Balık Yemenin Faydaları Nelerdir? | #SağlıklıRamazanlar",
+        "imageUrl": "https://cdn.turkmedya.com.tr/aksam/fotogaleri/video/270520191134034306158.jpg",
+        "itemType": "VIDEO",
+        "titleVisible": true
+      },
+      {
+        "shortText": "Hava savunma sistemleri arasında dünyanın en gelişmiş iki teknolojisi karşı karşıya. Rus yapımı S 400 mü, ABD yapımı Patriot füzeleri mi daha güçlü? Türkiye´nin ve dünyanın gündeminden düşmeyen iki füze hava savunma sistemini sizin için karşılaştırdık.",
+        "bodyText": "",
+        "videoUrl": "http://img1.aksam.com.tr/fotogaleri/video/160bee9afd0a4d9b81527fc74bb2e384.mp4",
+        "itemId": "44912",
+        "title": "S-400 Mü, Patriot Mu? Hangisi Daha Etkili?",
+        "imageUrl": "https://cdn.turkmedya.com.tr/aksam/fotogaleri/video/270520191130374165529.jpg",
+        "itemType": "VIDEO",
+        "titleVisible": true
+      }
+    ],
+    "relatedNews": {
+      "hasPhotoGallery": false,
+      "hasVideo": false,
+      "publishDate": "27.05.2019 09:23:00",
+      "shortText": "Afganistan'ın başkenti Kabil'de Hac ve Evkaf Bakanlığı personelini taşıyan araca yerleştirilen bombanın patlatılması sonucu 10 kişinin yaralandığı bildirildi.",
+      "category": {
+        "categoryId": "14",
+        "title": "DÜNYA",
+        "slug": "dunya"
+      },
+      "itemId": "975408",
+      "title": "Kabil'deki bombalı saldırıda 10 kişi yaralandı",
+      "imageUrl": "http://cdn2.gazeteaksam.com/aksam/imgsdisk/2019/05/27/270520190922533993077_2.jpg",
+      "itemType": "NEWS",
+      "titleVisible": true
+    },
+    "video": {
+      "shortText": "Balık neden bu kadar önemli?\r\n<br>\r\nBalık yemenin faydaları nelerdir?\r\n<br>\r\nHafızayı kuvvetlendiren, konsantrasyonu ve dikkati artıran, damar ve kalp sağlığına en büyük yatırımı yapan, yüzdeki kırışıklıklara iyi gelen balığı haftada kaç kez tüketmeliyiz?\r\n<br>\r\nDr. Ayça Kaya Sağlıklı Ramazanlar´da cevaplıyor...",
+      "bodyText": "",
+      "videoUrl": "http://img1.aksam.com.tr/fotogaleri/video/saglikliramazan15.mp4",
+      "itemId": "44913",
+      "title": "Balık Yemenin Faydaları Nelerdir? | #SağlıklıRamazanlar",
+      "imageUrl": "http://cdn.turkmedya.com.tr/aksam/fotogaleri/video/270520191134034306158.jpg",
+      "itemType": "VIDEO",
+      "titleVisible": true
+    },
+    "photoGallery": {
+      "itemList": null,
+      "itemId": "54530",
+      "title": "THY yolcularını Çin'in 2 bin yıllık tarihi olan Xian şehrine taşımaya başlayacak",
+      "imageUrl": "http://cdn.turkmedya.com.tr/aksam/fotogaleri/orj/galeri/2019/05/27/t16_7_1137_270502019.jpg",
+      "itemType": "PHOTO_GALLERY",
+      "titleVisible": true
+    }
+  }
+}

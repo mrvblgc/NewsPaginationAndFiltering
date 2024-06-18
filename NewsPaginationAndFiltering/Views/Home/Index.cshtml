@@ -1,0 +1,94 @@
+﻿@{
+    ViewData["Title"] = "Anasayfa";
+}
+
+@model BLL.ServicesModel.PaginatedNewsDTO
+
+<form id="newsIndex" class="form-horizontal">
+    <div class="row col-12">
+        <div class="col-sm-3">
+            <select id="categoryId" name="category" class="form-select" placeholder="Kategori Seçiniz">
+                <option value="">Kategori Seçiniz</option>
+                @foreach (var cat in Model.categoryList)
+                {
+                    <option value="@cat.categoryId">@cat.title</option>
+                }
+            </select>
+        </div>
+        <div class="col-sm-3">
+            <input type="text" id="searchInfo" name="search" class="form-control" placeholder="Aranacak Kelime" />
+        </div>
+        <div class="col-sm-3">
+            <button id="btnFilter" class="btn btn-primary">Filtrele</button>
+        </div>
+    </div>
+    <br />
+</form>
+
+<div id="newsList">
+    <!-- Haberler burada listelenir -->
+</div>
+
+<nav aria-label="Page navigation example">
+    <ul class="pagination">
+        @for (int i = 1; i <= ViewBag.TotalPages; i++)
+        {
+            <li class="page-item @(i == ViewBag.CurrentPage ? "active" : "")">
+                <a class="page-link" href="" onclick="GetNews(@i)">@i</a>
+            </li>
+        }
+    </ul>
+</nav>
+
+@section Scripts {
+    <script>
+        var categoryInfo = null; // seçim değerini tutan categoryInfo değişkenine sayfa ilk açılışta null değeri verildi.
+        var searchInfo = null; // text değerini tutan search değişkenine sayfa ilk açılışta null değeri verildi.
+        $(document).ready(function () {
+            // Sayfa yüklendiğinde bu fonksiyona girer. Default olarak sayfa numarası 1 verildi.
+            GetNews(1);
+
+            // Butona tıklayınca seçim listesi ya da text alanına göre filtreleme yapar.
+            $("#btnFilter").on("click", function (e) {
+                e.preventDefault();
+
+                categoryInfo = $('#categoryId').val();
+                searchInfo = $('#searchInfo').val();
+
+                GetNews(1);
+            });
+        });
+
+        // Sayfayı sürekli reflesh etmemek için ahax kullanıldı.
+        function GetNews(pageNumber) {
+            $.ajax({
+                url: '/Home/GetNews',
+                type: 'GET',
+                data: { page: pageNumber, category: categoryInfo, search: searchInfo
+                },
+                success: function (data) {
+                    $('#newsList').empty();
+                    $.each(data.news, function (index, newsItem) {
+                        var newsHtml = '<div class="card mb-3"><div>';
+                        newsHtml += '<h3>Başlık: ' + newsItem.title + '</h3>';
+                        newsHtml += '<p>Kategori: ' + (newsItem.category ? newsItem.category.title : '') + '</p>';
+                        newsHtml += '<p><a href="/Home/Detail?itemId=' + newsItem.itemId + '">Haberin detayı için tıklayınız.</a></p>';
+                        newsHtml += '<img src="' + newsItem.imageUrl + '" alt="' + newsItem.title + '" />';
+                        newsHtml += '</div></div>';
+                        $('#newsList').append(newsHtml);
+                    });
+
+                    $('.pagination').empty();
+                    for (var i = 1; i <= data.totalPages; i++) {
+                        var liClass = (i === pageNumber) ? 'page-item active' : 'page-item';
+                        var pageLink = '<li class="' + liClass + '"><a class="page-link" href="javascript:void(0);" onclick="GetNews(' + i + ')">' + i + '</a></li>';
+                        $('.pagination').append(pageLink);
+                    }
+                },
+                error: function () {
+                    alert('Haberleri Getirirken hata meydana geldi.');
+                }
+            });
+        }
+    </script>
+}

@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "Detay";
+}
+
+@model BLL.ServicesModel.NewsDetailDTO
+
+
+@if (Model != null)
+{
+    <div class="card mb-3">
+        <div>
+            <h3>@Model.title @Html.Raw(Model.title)</h3>
+            <img src="@Model.imageUrl" /><br />
+            <p>@Html.Raw(Model.publishDate)</p>
+            <p>@Html.Raw(Model.bodyText)</p>
+        </div>
+    </div>
+}
